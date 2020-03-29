@@ -1,3 +1,6 @@
+## Fixing error of node and gulp not updating style.css
+When I added sass css to this project it gave some errors in the consone saying : "ReferenceError: primordials is not defined". The error got fixed by using this guide by Timon Web: https://timonweb.com/posts/how-to-fix-referenceerror-primordials-is-not-defined-error/ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
