@@ -1,6 +1,36 @@
 body {
-  margin: 0px; }
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden; }
+
+.dot {
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 2px;
+  opacity: .9;
+  filter: blur(0.1px);
+  border-radius: 50%; }
+
+@keyframes twinkleAnm {
+  0% {
+    opacity: .2; }
+  25% {
+    opacity: .2; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .2; } }
+
+.twinkle {
+  animation-name: twinkleAnm;
+  width: 4px;
+  height: 4px;
+  animation-iteration-count: infinite;
+  background-color: #ffe0a2; }
 
 h1 {
   color: red;
-  text-align: center; }
+  text-align: center;
+  margin-top: 35vh; }
