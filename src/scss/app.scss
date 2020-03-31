@@ -1,45 +1,12 @@
 body {
-	background-color: #000;
+	background-color: $bgColorPage;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-}
-
-.dot {
-	position: absolute;
-	background-color: white;
-	width: 2px;
-	height: 2px;
-	opacity: .9;
-	filter: blur(.1px);
-	border-radius: 50%;
-}
-
-@keyframes twinkleAnm {
-	0% {
-		opacity: .2;
-	}
-	25% {
-		opacity: .2;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: .2;
-	}
-}
-
-.twinkle {
-	animation-name: twinkleAnm;
-	width: 4px;
-	height: 4px;
-	animation-iteration-count: infinite;
-	background-color: rgba(255, 224, 162, 1);
+	color:$fontColor
 }
 
 h1 {
-	color: red;
 	text-align: center;
 	margin-top: 35vh;
 }

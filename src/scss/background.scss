@@ -1,0 +1,33 @@
+
+.dot {
+	position: absolute;
+	background-color: $starColor;
+	width: 2px;
+	height: 2px;
+	opacity: .9;
+	filter: blur(.1px);
+	border-radius: 50%;
+}
+
+@keyframes twinkleAnm {
+	0% {
+		opacity: .2;
+	}
+	25% {
+		opacity: .2;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .2;
+	}
+}
+
+.twinkle {
+	animation-name: twinkleAnm;
+	width: 4px;
+	height: 4px;
+	animation-iteration-count: infinite;
+	background-color: $starTwinkleColor;
+}

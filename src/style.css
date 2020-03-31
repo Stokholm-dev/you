@@ -1,12 +1,17 @@
 body {
-  background-color: #000;
+  background-color: #000000;
   margin: 0px;
   padding: 0px;
-  overflow: hidden; }
+  overflow: hidden;
+  color: #ffffff; }
+
+h1 {
+  text-align: center;
+  margin-top: 35vh; }
 
 .dot {
   position: absolute;
-  background-color: white;
+  background-color: #ffffff;
   width: 2px;
   height: 2px;
   opacity: .9;
@@ -29,8 +34,3 @@ body {
   height: 4px;
   animation-iteration-count: infinite;
   background-color: #ffe0a2; }
-
-h1 {
-  color: red;
-  text-align: center;
-  margin-top: 35vh; }
