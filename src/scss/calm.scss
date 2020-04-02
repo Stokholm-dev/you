@@ -1,0 +1,44 @@
+.object {
+	animation-name: orb_1;
+	animation-duration: 5s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+
+@keyframes orb_1 {
+	from {
+		transform: scale(2);
+		background: transparent;
+	}
+	to {
+		transform: scale(4);
+		background: transparent;
+	}
+}
+
+/*CENTERING */
+.centering {
+	height: 85vh;
+	position: relative;
+}
+
+.centering img {
+	/*border-radius:4px;*/
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+/*ICON CREDITS*/
+.IconCredit{
+    color:$fontColor;
+  text-align: center;
+
+
+    a{
+        color:$fontColor;
+    }
+}

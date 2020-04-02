@@ -4,7 +4,7 @@ export default class Thankful extends Component {
     render() {
         return (
             <div>
-                
+                THANKFUL
             </div>
         )
     }
