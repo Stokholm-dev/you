@@ -1,3 +1,12 @@
 .navbar-inner {
     background:transparent;
 }
+
+.navbar-dark .navbar-nav .nav-link{
+    color:$fontColor;
+}
+
+.active{
+        border-bottom-width: 1px;
+		border-bottom-style: solid;
+}

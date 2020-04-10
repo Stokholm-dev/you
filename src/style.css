@@ -9,6 +9,10 @@ h1 {
   text-align: center;
   margin-top: 35vh; }
 
+path {
+  stroke: white;
+  fill: white; }
+
 .dot {
   position: absolute;
   background-color: #ffffff;
@@ -56,7 +60,7 @@ h1 {
   height: 85vh;
   position: relative; }
 
-.centering img {
+.centering svg {
   /*border-radius:4px;*/
   margin: 0;
   position: absolute;
@@ -68,7 +72,9 @@ h1 {
   color: #ffffff;
   text-align: center; }
   .IconCredit a {
-    color: #ffffff; }
+    color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid; }
 
 .container {
   position: relative;
@@ -85,3 +91,10 @@ h1 {
 
 .navbar-inner {
   background: transparent; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff; }
+
+.active {
+  border-bottom-width: 1px;
+  border-bottom-style: solid; }

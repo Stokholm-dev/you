@@ -24,7 +24,7 @@
 	position: relative;
 }
 
-.centering img {
+.centering svg {
 	/*border-radius:4px;*/
 	margin: 0;
 	position: absolute;
@@ -35,10 +35,11 @@
 /*ICON CREDITS*/
 .IconCredit{
     color:$fontColor;
-  text-align: center;
-
+  	text-align: center;
 
     a{
-        color:$fontColor;
+		color:$fontColor;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
     }
 }

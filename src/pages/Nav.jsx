@@ -6,12 +6,12 @@ export default class Nav extends Component {
 	render() {
 		return (
 			<div>
-				<nav class="navbar navbar-expand-lg navbar-dark navbar-inner ">
-					<a class="navbar-brand" href="/">
+				<nav className="navbar navbar-expand-lg navbar-dark navbar-inner ">
+					<a className="navbar-brand" href="/Home">
 						YOU
 					</a>
 					<button
-						class="navbar-toggler"
+						className="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarSupportedContent"
@@ -19,27 +19,27 @@ export default class Nav extends Component {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span class="navbar-toggler-icon" />
+						<span className="navbar-toggler-icon" />
 					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item ">
-								<a class="nav-link" href="/">
+					<div className="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul className="navbar-nav ml-auto">
+							<li className="nav-item ">
+								<a className="nav-link" href="/Home">
 									Home
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/Calm">
+							<li className="nav-item">
+								<a className="nav-link" href="/Calm">
 									Calm
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/Saying">
+							<li className="nav-item">
+								<a className="nav-link" href="/Saying">
 									Saying
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/Thankful">
+							<li className="nav-item">
+								<a className="nav-link" href="/Thankful">
 									Thankful
 								</a>
 							</li>
