@@ -1,6 +1,6 @@
 ## Watch the application in action
 
-Visit you.stokholm-dev.dk/Home and see the application in action
+Visit https://you.stokholm-dev.dk/Home and see the application in action
 
 
 ## Fixing error of node and gulp not updating style.css
