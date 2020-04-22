@@ -1,0 +1,21 @@
+.thankful{
+    padding: 20vh 0;
+    height: 85vh;
+
+    h2{
+        text-align: center;
+    }
+    .row{
+        align-items: center;
+    justify-content: center;
+    margin-top:3vh;
+    margin-bottom: 3vh;
+    }
+
+    input{
+        background-color: transparent;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        color:$fontColor;
+    }
+}

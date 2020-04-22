@@ -104,3 +104,19 @@ path {
 
 .quoteSaying {
   text-align: center; }
+
+.thankful {
+  padding: 20vh 0;
+  height: 85vh; }
+  .thankful h2 {
+    text-align: center; }
+  .thankful .row {
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh; }
+  .thankful input {
+    background-color: transparent;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: #ffffff; }
