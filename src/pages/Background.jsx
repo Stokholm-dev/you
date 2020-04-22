@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery'; //Import of Jquery
 
 export default class Background extends Component {
-    componentDidMount() {
+	componentDidMount() {
 		var screenWidth = $(window).width();
 		var screenHeight = $(window).height();
 		var count = 300;
@@ -34,15 +34,12 @@ export default class Background extends Component {
 			return ranNum;
 		}
 	}
-    render() {
+	render() {
+		var skyStyle = {
+			height: $(window).height(),
+			width: $(window).width()
+		};
 
-        var skyStyle={
-            height:$(window).height(),
-            width:$(window).width()
-        }
-
-        return (
-            <div id="sky" style={skyStyle}/>
-        )
-    }
+		return <div id="sky" style={skyStyle} />;
+	}
 }

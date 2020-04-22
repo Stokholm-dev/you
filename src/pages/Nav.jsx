@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-//TODO: Make navbar with bootstrap
-
 export default class Nav extends Component {
 	render() {
 		return (

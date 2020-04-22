@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style.css'; //#Import of styling
 import Background from './pages/Background';
 import Nav from './pages/Nav';
-import { BrowserRouter as Router, Switch, Route,Redirect} from 'react-router-dom'; //Import of react router
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'; //Import of react router
 import Home from './pages/Home';
 import Calm from './pages/Calm';
 import Footer from './pages/Footer';
