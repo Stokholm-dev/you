@@ -7,9 +7,9 @@
     }
     .row{
         align-items: center;
-    justify-content: center;
-    margin-top:3vh;
-    margin-bottom: 3vh;
+        justify-content: center;
+        margin-top:3vh;
+        margin-bottom: 3vh;
     }
 
     input{
@@ -17,5 +17,6 @@
         margin-left: 1vw;
         margin-right: 1vw;
         color:$fontColor;
+        border-style: solid;
     }
 }

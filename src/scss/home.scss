@@ -1,0 +1,29 @@
+.home{
+    height: 85vh;
+    padding: 25vh 0;
+}
+
+.borderCard{
+    border: solid 2px $fontColor;
+    border-radius: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left:2vw;
+    padding-right:2vw;
+}
+
+.homeLink{
+	color: $fontColor;
+}
+
+.homeLink:hover{
+    color: $fontColor;
+}
+
+.homeLinkText{
+    text-align: center;
+}
+
+.descriptionHome{
+    text-align: center;
+}

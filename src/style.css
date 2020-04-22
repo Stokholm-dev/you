@@ -57,7 +57,7 @@ path {
 
 /*CENTERING */
 .centering {
-  height: 85vh;
+  height: 80vh;
   position: relative; }
 
 .centering svg {
@@ -119,4 +119,29 @@ path {
     background-color: transparent;
     margin-left: 1vw;
     margin-right: 1vw;
-    color: #ffffff; }
+    color: #ffffff;
+    border-style: solid; }
+
+.home {
+  height: 85vh;
+  padding: 25vh 0; }
+
+.borderCard {
+  border: solid 2px #ffffff;
+  border-radius: 50px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 2vw;
+  padding-right: 2vw; }
+
+.homeLink {
+  color: #ffffff; }
+
+.homeLink:hover {
+  color: #ffffff; }
+
+.homeLinkText {
+  text-align: center; }
+
+.descriptionHome {
+  text-align: center; }
